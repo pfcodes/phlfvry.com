@@ -1,18 +1,20 @@
 extends layout
 
 block content
-  .outer
-    .middle
-      .inner
-        img(src="images/bitmoji/gliding.png", width="200", height="200")
-        h1.introduction-header hi, i'm phil...
-        small i'm updating my site to showcase the new skills I've gained since 
-          | starting my professional career in web development this year...
-          | for now, learn more about me through
-          a(href="https://www.linkedin.com/in/philfevry")  LinkedIn 
-          |  or  
-          a(href="https://www.github.com/phlfvry") GitHub
-          | .
+  .container
+    .row.justify-content-sm-center
+      .col-xs-12.col-sm-10.col-md-8
+        .section__homepage-container
+          .section__homepage-content
+            img.introduction-picture(src="images/bitmoji/gliding.png", width="200", height="200", alt="Bitmoji Gliding")
+            h1.introduction-header hi, i'm phil...
+            small i'm updating my site to showcase the new skills i've gained since 
+              | starting my professional career in web development this year...
+              | for now, learn more about me through
+              a(href="https://www.linkedin.com/in/philfevry")  LinkedIn 
+              |  or  
+              a(href="https://www.github.com/phlfvry") GitHub
+              | .
   //.footer
     a(href="https://www.github.com/in/phlfvry").footer-link
       i.fa.fa-github.fa-lg
