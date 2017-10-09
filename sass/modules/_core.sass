@@ -1,6 +1,9 @@
 html, body
   padding: 0
   margin: 0
+  width: 100%
+  height: 100%
+  overflow: hidden
 
 body
   margin: 0
@@ -31,3 +34,7 @@ h1
   position: fixed
   bottom: 15px
   text-align: center
+
+  @media screen and (orientation: landscape) 
+    body, html
+      overflow: scroll !important
