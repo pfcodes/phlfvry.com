@@ -1,3 +1,3 @@
 window.onload = function(){
-  particlesJS.load('particles-js', 'assets/particles.json');
+  particlesJS.load('particles-js', 'particles.json');
 }
