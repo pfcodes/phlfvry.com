@@ -20,6 +20,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// 301 Redirect
+app.use((req, res, next) => {
+  var host = req.get('Host')
+  if (host === 'phlfvry.com') {
+    return res.redirect(301, 'https://www.phlfvry.com' + req.originalUrl);
+  }
+  return next();
+});
+
 app.use('/', index);
 
 // catch 404 and forward to error handler
