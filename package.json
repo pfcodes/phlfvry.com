@@ -6,7 +6,7 @@
   "author": "Phil Fevry <pf@phlfvry.com>",
   "license": "MIT",
   "dependencies": {
-    "handlebars": "^4.5.3",
+    "handlebars": "^4.7.7",
     "jquery": "^3.5.0",
     "particles.js": "^2.0.0",
     "uikit": "^3.0.0-beta.35"
