@@ -12,7 +12,7 @@
     "uikit": "^3.0.0-beta.35"
   },
   "devDependencies": {
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "parceljs": "^0.0.1"
   }
 }
